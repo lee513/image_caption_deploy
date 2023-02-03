@@ -155,7 +155,7 @@ ckpt = tf.train.Checkpoint(encoder=encoder,
                            decoder=decoder,
                            optimizer=optimizer)
 
-ckpt.restore("./checkpoints/train\\ckpt-11")
+ckpt.restore("./checkpoints/train/ckpt-11")
 
 #inference
 def evaluate(image):
