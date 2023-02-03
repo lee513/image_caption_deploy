@@ -1,0 +1,8 @@
+tensorflow
+matplotlib
+pandas
+numpy
+gtts
+playsound
+
+
